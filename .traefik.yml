@@ -1,7 +1,7 @@
 displayName: JSON Body Validator
 type: middleware
 
-import: github.com/Netvigie/traefik-plugins/traefik-json-body-validator
+import: github.com/Netvigie/traefik-json-body-validator
 
 summary: Validate JSON request body with regex patterns and field requirements
 
