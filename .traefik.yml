@@ -1,0 +1,16 @@
+displayName: JSON Body Validator
+type: middleware
+
+import: github.com/Netvigie/traefik-plugins/traefik-json-body-validator
+
+summary: Validate JSON request body with regex patterns and field requirements
+
+testData:
+  rules:
+    - field: value
+      pattern: "^.+$"
+      required: true
+  response:
+    status: 400
+    code: "INVALID_REQUEST"
+    message: "Invalid request body"
