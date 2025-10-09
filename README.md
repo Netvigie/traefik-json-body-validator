@@ -21,8 +21,8 @@ Plugin middleware pour Traefik qui valide le corps des requêtes JSON avec des e
 experimental:
   plugins:
     json-body-validator:
-      moduleName: github.com/username/traefik-json-body-validator
-      version: v1.0.0
+      moduleName: github.com/netvigie/traefik-json-body-validator
+      version: v1.0.4
 ```
 
 #### Configuration dynamique
