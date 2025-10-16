@@ -1,4 +1,4 @@
-module github.com/netvigie/traefik-json-body-validator
+module github.com/Netvigie/traefik-json-body-validator
 
 go 1.21
 
